@@ -12,3 +12,4 @@
 <title>Markmap</title> : <title>九年级下册第课 | lalala 的网站</title>
 
 (#+ )(.*) : $1<center>$2</center>
+\*+(.*?)\*+ : <b>$1</b>
