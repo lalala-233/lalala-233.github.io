@@ -11,7 +11,31 @@
 
 <body>
     <div id="app">加载中</div>
-    <script> window.$docsify = {} </script>
+    <script>
+        window.$docsify = {
+            //切换页面后是否跳转到页面顶部
+            auto2top: true,
+            //自动添加文章题目到侧边栏（在启用侧边栏后有效）
+            autoHeader: true,
+            //封面
+            coverpage: './docsify/cover.md',
+            ext: '.html',
+            //通过 {docsify-updated} 变量显示文档更新日期.
+            formatUpdated: '{YYYY}.{MM}.{DD}-{HH}:{mm}:{ss}.{fff}',
+            //导航栏
+            loadNavbar: './docsify/navbar.md',
+            //侧边栏
+            loadSidebar: './docsify/sidebar.md',
+            //小屏设备下合并导航栏到侧边栏
+            mergeNavbar: true,
+            name: `lalala 的小站`,
+            nameLink: { '/': '/docsify/cover.md' },
+            //GitHub 仓库
+            repo: 'lalala-233',
+            //目录层级（开启侧边栏后依旧可用）
+            subMaxLevel: 64,
+        } 
+    </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 
