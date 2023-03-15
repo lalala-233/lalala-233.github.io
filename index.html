@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>lalala 的小站</title>
-</head>
+    <head>
+        <link rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>lalala 的小站</title>
+    </head>
 
-<body>
-    <div id="app">加载中</div>
-    <script>
+    <body>
+        <div id="app">加载中</div>
+        <script>
         window.$docsify = {
             //切换页面后是否跳转到页面顶部
             auto2top: true,
@@ -19,7 +20,8 @@
             autoHeader: true,
             //封面
             coverpage: './docsify/cover.md',
-            ext: '.html',
+            //文章资源的源文件的后缀名字
+            ext: '.md',
             //通过 {docsify-updated} 变量显示文档更新日期.
             formatUpdated: '{YYYY}.{MM}.{DD}-{HH}:{mm}:{ss}.{fff}',
             //导航栏
@@ -36,7 +38,7 @@
             subMaxLevel: 64,
         } 
     </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-</body>
+        <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    </body>
 
 </html>
