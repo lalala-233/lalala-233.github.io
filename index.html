@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <link rel="stylesheet"
-            href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>lalala 的小站</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>lalala 的小站</title>
+</head>
 
-    <body>
-        <div id="app">加载中</div>
-        <script>
+<body>
+    <div id="app">加载中</div>
+    <script>
         window.$docsify = {
+            alias: {
+                '(.*/docs)/README': '$1/README_zh',
+                '/cpp/(.*)': 'https://raw.githubusercontent.com/lalala-233/my_cpp_test/main/$1',
+            },
             //切换页面后是否跳转到页面顶部
             auto2top: true,
             //自动添加文章题目到侧边栏（在启用侧边栏后有效）
@@ -36,9 +39,9 @@
             repo: 'lalala-233',
             //目录层级（开启侧边栏后依旧可用）
             subMaxLevel: 64,
-        } 
+        }
     </script>
-        <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-    </body>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+</body>
 
 </html>
