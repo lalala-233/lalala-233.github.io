@@ -33,15 +33,38 @@
             loadSidebar: './docsify/sidebar.md',
             //小屏设备下合并导航栏到侧边栏
             mergeNavbar: true,
+            //mermaid 设置
+            mermaidConfig: {
+                querySelector: ".mermaid",
+            },
             name: `lalala 的小站`,
             nameLink: { '/': '/' },
             //GitHub 仓库
             repo: 'lalala-233',
             //目录层级（开启侧边栏后依旧可用）
             subMaxLevel: 64,
+            //页面在滚动到指定的锚点（标题）时，与页面顶部保留一定空间。
+            topMargin: 16,
         }
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <!--复制代码插件-->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <!--语法高亮-->
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-lua.min.js"></script>
+    <!--Mermaid 缩放支持--><!--前置：D3.js-->
+    <script src="//cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
+    <!--Mermaid 支持-->
+    <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
+    <script type="module">
+        import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+        mermaid.initialize({ startOnLoad: true });
+        window.mermaid = mermaid;
+    </script>
 </body>
 
 </html>
