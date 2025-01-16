@@ -1,6 +1,10 @@
 - [首页](/README.md)
 - [自我介绍](/website/AboutMe.md)
 
+- - 2025.1
+    - [记一次 Linux 下 egui IME 问题](/website/2025/1/egui-ime.md)
+    - [部分大模型 API 价格对比](/website/2025/1/big-model-api-price-comparison.md)
+
 - - 2024.10
     - [关于 Update 和 FixedUpdate 的一些看法](/website/2024/10/Update-FixedUpdate.md)
 
