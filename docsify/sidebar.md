@@ -1,6 +1,9 @@
 - [首页](/README.md)
 - [自我介绍](/website/AboutMe.md)
 
+- - 2025.8
+    - [让早期 C 代码更加现代化](/website/2025/8/make-old-fashioned-c-code-more-modern.md)
+
 - - 2025.1
     - [部分 AMD GPU 使用 Stable Diffusion 出图](/website/2025/1/amd-gpu-stable-diffusion.md)
     - [使用 ssh 签名 git 的提交](/website/2025/1/git-sign-with-ssh.md)
