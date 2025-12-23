@@ -4,4 +4,4 @@
 
 ## 最近在干啥
 
-最近在弄一个小玩具 [AnkiMaker](https://github.com/lalala-233/AnkiMaker)，可以为 Anki 生成 txt 格式的卡片。
+最近啥也没干（？）
