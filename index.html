@@ -13,7 +13,7 @@
     <div id="app">加载中</div>
     <script>
         window.$docsify = {
-            alias: {
+            ali: {
                 '(.*/docs)/README': '$1/README_zh',
                 '/ankimaker/(.*)': 'https://raw.githubusercontent.com/lalala-233/AnkiMaker/dev/$1',
                 '/cpp/(.*)': 'https://raw.githubusercontent.com/lalala-233/my_cpp_test/main/$1',
@@ -67,6 +67,11 @@
         import mermaid from "https://unpkg.com/mermaid/dist/mermaid.esm.min.mjs";
         mermaid.initialize({ startOnLoad: true });
         window.mermaid = mermaid;
+    </script>
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('sw.js')
+        }
     </script>
 </body>
 
