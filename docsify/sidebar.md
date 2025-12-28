@@ -1,5 +1,6 @@
 - - [首页](/README.md)
 - - 2025.12
+    - [《Rust 游戏开发实战》读后感](/website/2025/12/review-of-rust-game-develop.md)
     - [《函数式编程入门：使用 Elixir》读后感](/website/2025/12/review-of-elixir-book.md)
 - - 2025.8
     - [让早期 C 代码更加现代化](/website/2025/8/make-old-fashioned-c-code-more-modern.md)
