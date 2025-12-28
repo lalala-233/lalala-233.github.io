@@ -1,6 +1,6 @@
 # 使用 ssh 签名 git 的提交
 
-只是吐槽了一些遇到的问题，可能没法解决您的问题。
+> 2025-12-28 更新：修改了一点措辞。
 
 ## 介绍
 
@@ -12,18 +12,16 @@
 
 早年只支持 GPG 密钥，不过后来也支持使用 ssh 密钥签名了。
 
-## 为什么
+## 吐槽
 
-检查是否签名（用 -S 签名或在设置自动签名）：
+根据 [Github 文档](https://docs.github.com/zh/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key#telling-git-about-your-ssh-key)，我们可以告诉 git 我们的签名密钥。
+
+添加后，可以检查 git 是否能签名：
 
 ```bash
 git commit --allow-empty -S -m "Test SSH signed commit"
-# 或
-git commit --amend -S
 # 然后
 git log --show-signature -1
-# 如果需要
-git reset HEAD\^ # Linux 下的 ^ 要转义
 ```
 
 如果签名成功，则会显示：`Good "git" signature for <邮箱> with 密钥类型 key 公钥的 SHA256`。
@@ -42,4 +40,4 @@ git config --global gpg.ssh.allowedSignersFile 文件地址
 邮箱 密钥类型 公钥
 ```
 
-具体参见这篇[博客](https://www.bhekani.com/posts/sign-git-commits-with-ssh-keys/)（英文）。
+具体可以参见这篇[英文博客](https://www.bhekani.com/posts/sign-git-commits-with-ssh-keys/)。
