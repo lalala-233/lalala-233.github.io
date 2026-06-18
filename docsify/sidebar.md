@@ -1,5 +1,6 @@
 - - [首页](/README.md)
 - - 2026.6
+    - [为 Firefox 贡献代码](/website/2026/6/contribute-code-to-firefox.md)
     - [对大模型生成的文本内容的思考](/website/2026/6/thought-of-ai-generated-text.md)
 - - 2025.12
     - [《Rust 游戏开发实战》读后感](/website/2025/12/review-of-rust-game-develop.md)
