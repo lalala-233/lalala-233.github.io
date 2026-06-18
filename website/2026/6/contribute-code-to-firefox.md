@@ -81,7 +81,7 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 ### [Artifact Builds](https://firefox-source-docs.mozilla.org/contributing/build/artifact_builds.html)
 
-> 桌面版和安卓版的 Firefox 支持一种称为 artifact mode 的快速构建模式。生成的构建称为 artifact builds。Artifact mode 下载预构建的 C++ 组件，而不是在本地构建。用带宽换取时间。
+> 桌面版和安卓版的 Firefox 支持一种称为 artifact mode 的快速构建模式。生成的构建称为 artifact builds。Artifact mode 下载预构建的 C++ 组件，而不是在本地构建，用带宽换取时间。
 
 #### 前置条件
 
@@ -115,7 +115,7 @@ ac_add_options --enable-artifact-build-symbols
 mk_add_options MOZ_OBJDIR=./objdir-frontend-debug-artifact
 ```
 
-~~我也不知道为啥我用不了，或许是我坠机了吧~~
+~~我也不知道为啥我用不了，或许是我坠机了吧。~~
 
 ## 在 Matrix 上与他人沟通
 
