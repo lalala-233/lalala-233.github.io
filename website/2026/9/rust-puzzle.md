@@ -18,6 +18,8 @@ fn foo(xs: &mut Vec<Option<i32>>) -> Option<i32> {
 }
 ```
 
+[解答](/website/2026/9/puzzle-1-answer.md)
+
 ## 谜题 2
 
 你知道吗？Rust 支持命名参数，声明参数名后即可乱序传参
