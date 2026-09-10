@@ -34,6 +34,8 @@ assert_eq!(timeout, 30);
 assert_eq!(retries, 3);
 ```
 
+[解答](/website/2026/9/puzzle-2-answer.md)
+
 ## 谜题 3
 
 你知道吗？Rust 可以直接匹配闭包的实现，形式化验证这一块

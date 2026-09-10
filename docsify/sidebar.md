@@ -2,6 +2,7 @@
 - - 2026.9
     - [一组 Rust 谜题](/website/2026/9/rust-puzzle.md)
       - [谜题 1 解答](/website/2026/9/puzzle-1-answer.md)
+      - [谜题 2 解答](/website/2026/9/puzzle-2-answer.md)
 - - 2026.6
     - [为 Firefox 贡献代码](/website/2026/6/contribute-code-to-firefox.md)
     - [对大模型生成的文本内容的思考](/website/2026/6/thought-of-ai-generated-text.md)
