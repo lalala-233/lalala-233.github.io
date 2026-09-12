@@ -1,1 +1,6 @@
 - [首页](/README.md)
+- 友情链接
+  - [电子鱼](https://ff66ccff.github.io "好厉害")
+  - [尺衡旦日](https://lingyu061126.github.io "一名普通的人类观察员")
+  - [Astepluver](https://astepluver.github.io "我们的好医生")
+  - [Fat Old Eight](https://fat-old-eight.github.io)
